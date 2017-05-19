@@ -1,3 +1,7 @@
+First load the environment to compile:
+
+  module load intel/compiler/64
+  module load intel/tbb/64
 
 Compile
 
