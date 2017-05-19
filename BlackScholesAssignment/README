@@ -1,0 +1,30 @@
+Step1: Decompress the input file (Sample_SPX_20151001_to_20151030.csv).
+
+You can do that on the server using:
+
+   gunzip Sample_SPX_20151001_to_20151030.csv.gz
+
+Source was this (You might find other files to test from there as well)
+https://www.historicaloptiondata.com/content/sample-files-0
+(see "SPX Sample Download")
+
+
+Step2: make
+
+    module load intel/compiler/64
+    make
+
+Step3: ./BS_hackaton
+
+Run on the Phi:
+
+    srun -p xeonphi ./BS_hackaton
+
+
+
+
+NOTE: the makefile.mak is not related to the project, but it's a Makefile that
+was used for a real Xeon Phi project (although an older model) that does
+something similar to the exercise. So that's why we still included it, in case
+you start optimizing you may find interesting flags in it.
+
