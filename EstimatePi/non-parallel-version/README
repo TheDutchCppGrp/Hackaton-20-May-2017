@@ -1,0 +1,7 @@
+make
+make EXTRA_CXXFLAGS='-O1'
+make EXTRA_CXXFLAGS='-O2'
+.. 
+
+You may wish to do make clean in between if you want to play around with different optimizations.
+

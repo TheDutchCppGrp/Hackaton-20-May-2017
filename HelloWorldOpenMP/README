@@ -1,0 +1,11 @@
+
+Compile
+
+  make
+
+Run
+
+  ./hello_v1                  # runs super slow on headnode (press Control+C to abort it)
+  srun -p xeonphi ./hello_v1  # should run a lot faster on the xeon phi with 272 cores
+
+

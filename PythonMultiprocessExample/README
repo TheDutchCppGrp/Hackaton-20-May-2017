@@ -1,0 +1,6 @@
+This example is not really efficient
+
+But just for fun this uses python multiprocess
+
+python hello_v1.py
+srun -p xeonphi python hello_v1.py
