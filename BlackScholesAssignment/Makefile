@@ -2,7 +2,7 @@
 #CC = g++
 CC = icpc
 
-CXXFLAGS = --std=c++14 -O3
+CXXFLAGS = -std=c++14 -O3
 
 LDFLAGS = 
  

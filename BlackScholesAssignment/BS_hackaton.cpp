@@ -4,7 +4,8 @@
 #include <cmath>
 
 #define M_PI 3.14159265358979323846
-#define M_SQRT1_2 0.707106781186547524401
+//for gcc use:
+//#define M_SQRT1_2 0.707106781186547524401
 
 double norm_cdf(double value)
 {
